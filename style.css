@@ -15,7 +15,7 @@ body {
     width: clamp(200px, 33vw, 400px);
     height: auto;
     margin: 2rem auto;
-    background-color: aquamarine;
+    background-color: rgb(33, 169, 223);
     aspect-ratio: 1 / 1;
     text-align: center;
     border: 2px solid #000;
