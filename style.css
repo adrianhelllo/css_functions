@@ -22,7 +22,7 @@ body {
 }
 
 .box:hover {
-    filter: brightness(150%)
+    filter: hue-rotate(180deg);
 }
 
 p {
