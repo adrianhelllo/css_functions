@@ -10,14 +10,16 @@ body {
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 300px));
+}
+
 .box {
     position: relative;
-    width: clamp(200px, 33vw, calc(416px - 1rem));
-    height: auto;
-    margin: 2rem auto;
     background-color: rgb(33, 169, 223);
-    aspect-ratio: 1 / 1;
     text-align: center;
+    aspect-ratio: 1 / 2;
     border: 2px solid #000;
     transition: all 0.5s ease-in-out
 }
