@@ -13,15 +13,17 @@ body {
 main {
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 300px));
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .box {
     position: relative;
-    background-color: rgb(33, 169, 223);
+    background-color: rgb(65, 223, 33);
     text-align: center;
-    aspect-ratio: 1 / 2;
+    aspect-ratio: 1 / 1;
     border: 2px solid #000;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
 }
 
 .box:hover {
