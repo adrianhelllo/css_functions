@@ -11,7 +11,7 @@ body {
 }
 
 .box {
-    width: min(100%, 300px);
+    width: max(100%, 300px);
     height: auto;
     margin: 2rem auto;
     background-color: aquamarine;
